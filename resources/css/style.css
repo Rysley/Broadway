@@ -1,7 +1,6 @@
-*{
-  font-family: Helvetica;
+body {
+  font-family: Helvetica, sans-serif;
   text-align: center;
-  font-weight: bold;
 }
 
 h1{
@@ -24,7 +23,7 @@ p{
   font-size: 14px;
 }
 
-a{
+.link{
   font-size: 18px;
   color: white;
 }
@@ -37,20 +36,18 @@ a{
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
   color: white;
 }
-/*.menuStripe{
+.menuStripe, .menuStripe p{
   text-align: left;
-  color: white;
   background-color: dimgray;
+  color: white;
+  font-size: 11px;
 }*/
 
-.menuStripe p{
+/*.menuStripe p{
   font-size: 11px;
-  text-align: left;
-  color: white;
-  background-color: dimgray;
 }
 
-.menuStripe a{
+/*.menuStripe a{
   text-align: left;
   color: white;
   background-color: dimgray;
